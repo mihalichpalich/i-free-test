@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "url": "https://res.cloudinary.com/demo/video/upload/dog.mp4",
+    "title": "Няшный песель ')"
+  },
+  {
+    "id": 1,
+    "url": "https://res.cloudinary.com/demo/video/upload/sea_turtle.mp4",
+    "title": "Морская черепашка"
+  },
+  {
+    "id": 2,
+    "url": "https://res.cloudinary.com/demo/video/upload/kitten_fighting.mp4",
+    "title": "Котенок жует травинку"
+  },
+  {
+    "id": 3,
+    "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_2MB.mp4",
+    "title": "Кроличья нора"
+  },
+  {
+    "id": 4,
+    "url": "https://res.cloudinary.com/demo/video/upload/MLB_Vid.mp4",
+    "title": "Бейсбол"
+  },
+  {
+    "id": 5,
+    "url": "https://res.cloudinary.com/demo/video/upload/ski_jump.mp4",
+    "title": "Прыжок на лыжах"
+  }
+]

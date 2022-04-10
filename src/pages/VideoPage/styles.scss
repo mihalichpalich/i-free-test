@@ -1,0 +1,14 @@
+.video-page {
+  display: flex;
+
+  &--default {
+    flex-direction: row;
+    padding: 10vh 10vw 0;
+  }
+
+  &--theater {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+  }
+}

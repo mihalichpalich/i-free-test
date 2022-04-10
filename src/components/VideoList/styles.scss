@@ -1,0 +1,23 @@
+.video-list {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+
+    &-video {
+      width: 200px;
+      height: 100px;
+      margin-right: 0.5vw;
+    }
+
+    &-title {
+      font-weight: 600;
+    }
+  }
+}
