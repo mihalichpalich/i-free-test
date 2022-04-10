@@ -10,7 +10,7 @@ import VideoList from "../../components/VideoList/VideoList";
 
 const VideoPage: React.FC = () => {
   const [theater, setTheater] = useState(false);
-  const [currentVideo, setCurrentVideo] = useState(videos[0]);
+  const [currentVideo, setCurrentVideo] = useState<VideoItem>(videos[0]);
 
   return (
     <div

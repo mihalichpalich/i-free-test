@@ -3,11 +3,14 @@ import classNames from "classnames";
 
 import './styles.scss';
 import {PlayerProps} from "./types";
+import fullscreenIcon from '../../assets/fullscreen.svg';
+import theaterModeIcon from '../../assets/theater-mode.svg';
 
 const VideoPlayer: React.FC<PlayerProps> = ({theaterMode, setTheaterMode, currentVideo}) => {
   const videoRef = useRef(null as HTMLVideoElement | null);
 
   useEffect(() => {
+    console.log('currentVideo', currentVideo);
     videoRef?.current?.play();
   }, [currentVideo]);
 
@@ -30,17 +33,17 @@ const VideoPlayer: React.FC<PlayerProps> = ({theaterMode, setTheaterMode, curren
         )
       }
     >
-      <video ref={videoRef} className="video-player__item" src={currentVideo.url}/>
+      <video ref={videoRef} className="video-player__item" src={currentVideo.url} autoPlay muted/>
       <div className="video-player__controls">
         <div className="video-player__controls-wrapper">
           <img
-            src="/theater-mode.svg"
+            src={theaterModeIcon}
             alt="theater-mode"
             className="video-player__controls-icon"
             onClick={() => videoHandler('theater')}
           />
           <img
-            src="/fullscreen.svg"
+            src={fullscreenIcon}
             alt="fullscreen"
             className="video-player__controls-icon"
             onClick={() => videoHandler('fullscreen')}
