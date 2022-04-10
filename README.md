@@ -1,7 +1,5 @@
 # Тестовое задание на позицию Frontend-разработчика для i-FREE
 
-__Ссылка на gh-pages:__ https://mihalichpalich.github.io/i-free-test/
-
 Создать демо-страницу с использованием React наподобие YouTube страницы выбранного видео (например: https://www.youtube.com/watch?v=D-ci8xCPdsU). На странице должны присутствовать:
 
 1. Область плеера (можно использовать дефолтный html), оверлеем положить иконки Full Screen и Theater Mode
